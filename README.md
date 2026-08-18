@@ -270,6 +270,14 @@ Angular SPA → Internal API → Shared Business Logic → SQL Server
 - Angular: `4205`
 - Internal API: `41443`
 
+### Angular Architecture
+
+Both Angular applications use:
+
+JWT HTTP interceptors for centralized authentication handling
+HTTP error interceptors for centralized API error handling
+Lazy routing and lazy loading for improved application performance
+
 ### Background Worker
 
 Background Worker → Shared Business Logic → SQL Server
